@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mon Portfolio
 
-## Getting Started
+Bienvenue sur le repository de mon portfolio personnel, construit avec Next.js, Tailwind CSS, Shadcn UI et next-themes.
 
-First, run the development server:
+## Technologies utilisées
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Next.js](https://nextjs.org/) - Framework React pour le rendu côté serveur.
+- [Tailwind CSS](https://tailwindcss.com/) - Cadre CSS utilitaire.
+- [Shadcn UI](https://ui.shadcn.com) - Bibliothèque d'interface utilisateur réactive.
+- [next-themes](https://www.npmjs.com/package/next-themes?activeTab=readme) - Gestionnaire de thèmes pour Next.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Comment lancer le projet
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clonez le repository :**
+   ```bash
+   git clone https://github.com/votre-utilisateur/mon-portfolio.git
+   cd mon-portfolio
+   ```
+2. **Installez les dépendances :**
+   ```
+   pnpm install
+   ```
+3. **Démarrez le serveur de développement :**
+    ```
+    pnpm dev
+    ```
+Le site sera accessible à l'adresse http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Fonctionnalités
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - Thèmes sombre et clair : Le portfolio prend en charge les thèmes sombre et clair pour une expérience utilisateur personnalisée.
+ - Responsive : Conçu pour être facilement consultable sur divers appareils, du mobile au bureau.
+ - Section Projets : Mettez en avant vos projets avec une section dédiée, incluant des détails et des liens vers les dépôts GitHub.
+ - Expérience utilisateur fluide : Utilisation de Shadcn UI pour une interface utilisateur moderne et réactive.
