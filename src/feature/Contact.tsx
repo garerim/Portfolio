@@ -36,7 +36,7 @@ export default function ContactPage() {
     <div id='contact' className='h-screen pb-16 pt-16 relative overflow-x-hidden'>
       <h2 className='text-4xl font-bold'>Contact</h2>
       <div className="flex flex-col items-center justify-center mx-2">
-        <RevealWrapper rotate={{ x: 12, y: 40, z: 0 }} origin='right' delay={100} duration={1000} distance='100px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }} className={'max-w-lg w-full m-2 mt-4 p-3 bg-card border-2 rounded-lg'}>
+        <RevealWrapper rotate={{ x: 12, y: 40, z: 0 }} origin='right' delay={100} duration={1000} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }} className={'max-w-lg w-full m-2 mt-4 p-3 bg-card border-2 rounded-lg'}>
           <form ref={form} onSubmit={(e) => {sendEmail(e)}} className="flex flex-col items-center gap-2">
             <label htmlFor="user_name">Name</label>
             <Input type="text" name="user_name" id="user_name" placeholder="Name" required />
@@ -57,7 +57,7 @@ export default function ContactPage() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-2 h-auto">
-          <RevealList interval={60} delay={200} reset={true} className='flex flex-wrap gap-2 items-center justify-center h-auto'>
+          <RevealList interval={60} delay={200} reset={false} className='flex flex-wrap gap-2 items-center justify-center h-auto'>
             <a target="_blank" href="https://www.linkedin.com/in/mathéo-gareri-b3a081239/" className="flex items-center gap-2 font-bold bg-blue-600 py-1.5 px-3 rounded-full text-white"><Linkedin /> LinkdeIn</a>
             <a target="_blank" href="https://github.com/garerim" className="flex items-center gap-2 font-bold bg-black py-1 px-2 rounded-full text-white"><Github /> GitHub</a>
             <a target="_blank" href="mailto:matheo.gareri@etu.univ-smb.fr" className="flex items-center gap-2 font-bold bg-blue-400 py-1 px-2 rounded-full text-white"><Mail /> Mail</a>

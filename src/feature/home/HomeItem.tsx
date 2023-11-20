@@ -10,7 +10,7 @@ type HomeItemProps = {
 export const HomeItem = ({ text, image, position }: HomeItemProps) => {
 
     return (
-        <RevealWrapper className={clsx('hidden absolute lg:block', position)} rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={0} duration={800} distance='100px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+        <RevealWrapper className={clsx('hidden absolute lg:block', position)} rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={0} duration={800} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
             <div className="border-[3px] border-black rounded-xl overflow-hidden p-2 mx-2 max-w-lg flex bg-card animate-bounce-in-delay">
                 <img src="images/photo.png" className="w-1/5 h-1/5 border-2 border-black rounded-md" alt="Picture of the author" />
                 <div className="ml-2 flex flex-col items-start">

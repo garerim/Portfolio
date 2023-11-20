@@ -17,7 +17,7 @@ type ExperienceItemProps = {
 }
 export default function ExperienceItem({ experience }: {experience : ExperienceItemProps}) {
   return (
-    <RevealWrapper className={'z-20'} rotate={{ x: 12, y: 40, z: 0 }} origin='right' delay={200} duration={1000} distance='400px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+    <RevealWrapper className={'z-20'} rotate={{ x: 12, y: 40, z: 0 }} origin='right' delay={200} duration={1000} distance='400px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
       <div className='w-fit mx-auto  h-auto p-4 border-4 rounded-lg min-w-xs max-w-xl relative bg-card'>
         <a target='_blank' className='absolute top-4 right-4 cursor-pointer' href={experience.link}><ExternalLink /></a>
         <img src="images/powinoo.png" className='w-12 h-12 rounded-full border-2' alt="Logo POWINOO" />

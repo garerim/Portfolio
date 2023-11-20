@@ -13,7 +13,7 @@ export default function SkillPage() {
       <p className='text-sm text-gray-500'>Skills that I use in my projects</p>
 
       <div className='flex flex-wrap items-center justify-center gap-3 w-full mt-3 h-fit'>
-        <RevealWrapper className={'z-10'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={0} duration={1000} distance='100px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+        <RevealWrapper className={'z-10'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={0} duration={1000} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
           <Card className='w-fit h-auto flex flex-col items-center border bg-[#02cdfa] border-blue-700'>
             <CardHeader>
               <CardTitle className='text-black'>Front-End</CardTitle>
@@ -29,7 +29,7 @@ export default function SkillPage() {
           </Card>
         </RevealWrapper>
 
-        <RevealWrapper className={'z-20'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={100} duration={1000} distance='100px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+        <RevealWrapper className={'z-20'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={100} duration={1000} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
           <Card className='w-fit h-auto flex flex-col items-center border bg-[#02cdfa] border-blue-700'>
             <CardHeader>
               <CardTitle className='text-black'>Back-End</CardTitle>
@@ -45,7 +45,7 @@ export default function SkillPage() {
           </Card>
         </RevealWrapper>
 
-        <RevealWrapper className={'z-30'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={200} duration={1000} distance='100px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+        <RevealWrapper className={'z-30'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={200} duration={1000} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
           <Card className='w-fit h-auto flex flex-col items-center border bg-[#02cdfa] border-blue-700'>
             <CardHeader>
               <CardTitle className='text-black'>Others</CardTitle>

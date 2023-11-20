@@ -16,7 +16,7 @@ export default function HomePage() {
                 {/* <HomeItem text={'I love Alps Mountains'} image='/images/background.jpg' position={'top-[80px] left-[80px] scale-75'} />
                 <HomeItem text={'I love Alps Mountains'} image='/images/background.jpg' position={'bottom-[40px] right-[80px] scale-75'} /> */}
 
-                <RevealWrapper rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={0} duration={800} distance='100px' reset={true} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+                <RevealWrapper rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={0} duration={800} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                     <div className="border-[3px] border-black rounded-xl overflow-hidden p-2 mx-2 max-w-2xl flex bg-card animate-bounce-in">
                         <img src="images/photo.png" className="w-1/5 h-1/5 border-2 border-black rounded-md" alt="Picture of the author" />
                         <div className="ml-2 flex flex-col items-start">
