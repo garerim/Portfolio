@@ -8,10 +8,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 export default function SkillPage() {
   return (
     <div id='skills' className='h-auto pb-16 pt-16 relative overflow-y-visible'>
-      <img src='/svg/lys.svg' className='w-80 opacity-30 h-auto object-cover absolute -bottom-52 right-3 -z-40' alt='lys flower' />
       <h2 className='text-4xl font-bold'>My Skills</h2>
       <p className='text-sm text-gray-500'>Skills that I use in my projects</p>
-
       <div className='flex flex-wrap items-center justify-center gap-3 w-full mt-3 h-fit'>
         <RevealWrapper className={'z-10'} rotate={{ x: 12, y: 40, z: 0 }} origin='bottom' delay={0} duration={1000} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
           <Card className='w-fit h-auto flex flex-col items-center border bg-[#02cdfa] border-blue-700'>
