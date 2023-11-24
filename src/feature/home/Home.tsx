@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { ArrowDownToLine, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { RevealWrapper } from "next-reveal";
 
@@ -7,13 +8,13 @@ export default function HomePage() {
     return (
         <>
             <div id="home" className="flex items-center justify-center h-screen relative">
-                
+
                 <div className="absolute top-0 left-0 -z-10 w-full h-full">
                     <div className="absolute h-1/4 left-0 w-full bottom-0 bg-home-gradient"></div>
                     <div className="w-full h-full bg-cover bg-home bg-center" ></div>
                 </div>
 
-                <RevealWrapper rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={0} duration={800} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+                <RevealWrapper rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={500} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                     <div className="border-[3px] border-black rounded-xl overflow-hidden p-2 mx-2 max-w-2xl flex bg-card animate-bounce-in">
                         <img src="images/photo.png" className="w-1/5 h-1/5 border-2 border-black rounded-md" alt="Picture of the author" />
                         <div className="ml-2 flex flex-col items-start">
@@ -34,10 +35,14 @@ export default function HomePage() {
                     </div>
                 </RevealWrapper>
 
-                <a href="/images/Matheo_Gareri_CV.png" className="absolute left-1/2 bottom-8 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center gap-2 px-3 py-2 bg-[#02cdfa] rounded-lg text-lg duration-300 text-black cursor-pointer hover:bg-[#55e0ff]" download={true}>
-                <ArrowDownToLine />
-                Download CV
-                </a>
+                <RevealWrapper className='absolute left-1/2 bottom-8 -translate-x-1/2 -translate-y-1/2' rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={600} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+                    <Button className="cursor-pointer group flex gap-1.5 px-8 py-4 bg-foreground bg-opacity-80 rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
+                        <a href="/images/Matheo_Gareri_CV.pdf" className="flex items-center gap-2" download={true}>
+                            <ArrowDownToLine />
+                            Download CV
+                        </a>
+                    </Button>
+                </RevealWrapper>
 
             </div>
         </>
