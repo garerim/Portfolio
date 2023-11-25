@@ -39,22 +39,22 @@ export default function Me() {
     const diffYears = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
 
     return (
-        <div id='me' className='h-auto pb-16 pt-16 px-2 relative overflow-x-hidden overflow-y-visible'>
+        <div id='me' className='h-fit pb-16 pt-16 px-2 relative overflow-x-hidden overflow-y-clip'>
             <h1 className='text-4xl font-bold text-center'>Who am I ?</h1>
 
-            <div className='flex gap-x-2 flex-col md:flex-row w-fit mx-auto justify-center items-start h-fit mt-12'>
-                <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={500} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
-                    <img src="/images/photo.png" alt="Picture of Matheo GARERI" className='w-60 h-60 rounded-lg' />
+            <div className='flex gap-x-2 flex-col items-center md:flex-row md:items-start w-fit mx-auto justify-center h-fit mt-12 overflow-y-visible'>
+                <RevealWrapper className='flex-shrink-0' rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={500} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+                    <img src="/images/photo.png" alt="Picture of Matheo GARERI" className='w-60 h-60 rounded-lg flex-shrink' />
                 </RevealWrapper>
-                <div className='flex flex-col items-start text-center lg:text-left lg:w-1/3 h-full'>
-                    <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={550} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+                <div className='flex flex-col items-start text-center md:text-left lg:w-1/3 w-full h-full'>
+                    <RevealWrapper className='w-full text-center md:text-left' rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={550} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                         <h3 className='text-xl font-bold m-auto'>I'm Matheo GARERI</h3>
                     </RevealWrapper>
                     <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={600} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                         <p>I am {diffYears} years old and I am from Savoie in the French Alps. I am currently studying Bachelor in Computer Science at the IUT of Annecy of the University Savoie Mont Blanc. I am passionate about computers, history, nature, space, manga/anime... During my career and my personal projects, web development became my main passion and I decided to make it my job.</p>
                     </RevealWrapper>
                 </div>
-                <div className='flex flex-col gap-2 w-fit p-4 pt-0'>
+                <div className='flex flex-col gap-2 w-fit p-4 pt-0 overflow-y-visible'>
                     <RevealWrapper rotate={{ x: 0, y: 80, z: 0 }} origin='bottom' delay={500} duration={750} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                         <h3 className='text-xl font-bold text-center'>My Hobbies</h3>
                     </RevealWrapper>
