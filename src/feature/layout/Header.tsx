@@ -17,7 +17,7 @@ export const Header = () => {
     <header className={'fixed top-0 left-0 w-full flex items-center mb-2 py-1 px-2 z-50 bg-background-op'}>
       <h2 className='text-2xl font-bold mr-auto'>Matheo Gareri</h2>
       <ThemeToggle />
-      <div className='hidden max-sm:block'>
+      <div className='block md:hidden'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild className='bg-transparent border-none'>
             <Button className='px-2 ml-2' variant={'outline'}>
@@ -26,6 +26,7 @@ export const Header = () => {
           </DropdownMenuTrigger>
           <DropdownMenuContent className='bg-background'>
             <DropdownMenuItem className='cursor-pointer'><Link href="#home">Home</Link></DropdownMenuItem>
+            <DropdownMenuItem className='cursor-pointer'><Link href="#me">Me</Link></DropdownMenuItem>
             <DropdownMenuItem className='cursor-pointer'><Link href="#skills">Skills</Link></DropdownMenuItem>
             <DropdownMenuItem className='cursor-pointer'><Link href="#experience">Experience</Link></DropdownMenuItem>
             <DropdownMenuItem className='cursor-pointer'><Link href="#projects">Projects</Link></DropdownMenuItem>
@@ -34,8 +35,9 @@ export const Header = () => {
         </DropdownMenu>
       </div>
       <div>
-        <ul className='h-full sm:flex items-center gap-2 hidden '>
+        <ul className='h-full hidden md:flex items-center gap-2 '>
           <li><Link className='text-lg font-bold' href='#home'>Home</Link></li>
+          <li><Link className='text-lg font-bold' href='#me'>Me</Link></li>
           <li><Link className='text-lg font-bold' href='#skills'>Skills</Link></li>
           <li><Link className='text-lg font-bold' href='#experience'>Experience</Link></li>
           <li><Link className='text-lg font-bold' href='#projects'>Projects</Link></li>

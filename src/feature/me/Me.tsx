@@ -39,7 +39,7 @@ export default function Me() {
     const diffYears = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
 
     return (
-        <div className='h-auto pb-16 pt-16 px-2 relative overflow-x-hidden overflow-y-visible'>
+        <div id='me' className='h-auto pb-16 pt-16 px-2 relative overflow-x-hidden overflow-y-visible'>
             <h1 className='text-4xl font-bold text-center'>Who am I ?</h1>
 
             <div className='flex gap-x-2 flex-col md:flex-row w-fit mx-auto justify-center items-start h-fit mt-12'>
