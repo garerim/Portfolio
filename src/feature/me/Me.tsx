@@ -5,6 +5,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { cn } from '@/lib/utils';
 import { Clock2, Code2, TentTree } from 'lucide-react';
 import { RevealWrapper } from 'next-reveal';
+import Image from 'next/image';
 
 const hobbies = [
     {
@@ -43,7 +44,7 @@ export default function Me() {
 
             <div className='flex gap-x-2 flex-col md:flex-row w-fit mx-auto justify-center items-start h-fit mt-12'>
                 <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={500} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
-                    <img src="/images/photo.png" alt="Picture of Matheo GARERI" className='w-60 h-60 rounded-lg' />
+                    <Image src="/images/photo.png" alt="Picture of Matheo GARERI" className='w-60 h-60 rounded-lg' />
                 </RevealWrapper>
                 <div className='flex flex-col items-start text-center lg:text-left lg:w-1/3 h-full'>
                     <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={550} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
@@ -58,7 +59,7 @@ export default function Me() {
                         <h3 className='text-xl font-bold text-center'>My Hobbies</h3>
                     </RevealWrapper>
                     {hobbies.map((hobby, index) => (
-                        <RevealWrapper rotate={{ x: 0, y: 80, z: 0 }} origin='bottom' delay={500} duration={800 + (100 * index)} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+                        <RevealWrapper key={index} rotate={{ x: 0, y: 80, z: 0 }} origin='bottom' delay={500} duration={800 + (100 * index)} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                             <Popover>
                                 <PopoverTrigger asChild>
                                     <Card
