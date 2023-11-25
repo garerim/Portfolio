@@ -17,12 +17,12 @@ export default function HomePage() {
 
                 <RevealWrapper rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={500} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                     <div className="border-[3px] border-black rounded-xl overflow-hidden p-2 mx-2 max-w-2xl flex bg-card animate-bounce-in">
-                        <Image src="images/photo.png" className="w-1/5 h-1/5 border-2 border-black rounded-md" alt="Picture of the author" />
+                        <img src="images/photo.png" className="w-1/5 h-1/5 border-2 border-black rounded-md" alt="Picture of the author" />
                         <div className="ml-2 flex flex-col items-start">
                             <p className="text-lg font-bold flex items-center">
                                 Mathéo GARERI
-                                <Image src="images/france.png" alt="France flag" className="w-5 h-5 ml-2" />
-                                <Image src="images/savoie.png" alt="France flag" className="w-5 h-[15px] ml-2 rounded-[3px]" />
+                                <img src="images/france.png" alt="France flag" className="w-5 h-5 ml-2" />
+                                <img src="images/savoie.png" alt="France flag" className="w-5 h-[15px] ml-2 rounded-[3px]" />
                             </p>
                             <p className="text-left">Welcome to my portfolio! I am <strong>Mathéo GARERI</strong>, computer science student from Savoie in France, specialized in web development. Discover the <a className="font-bold hover:underline" href="#experience">experiences</a> and <a className="font-bold hover:underline" href="#skills">skills</a> I gained during my apprenticeship. Explore my <a className="font-bold hover:underline" href="#projects">projects</a> to discover my creative and technical path in the world of web development.</p>
                             <hr className="w-full border-black" />

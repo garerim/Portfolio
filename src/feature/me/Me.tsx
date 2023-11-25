@@ -44,7 +44,7 @@ export default function Me() {
 
             <div className='flex gap-x-2 flex-col md:flex-row w-fit mx-auto justify-center items-start h-fit mt-12'>
                 <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={500} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
-                    <Image src="/images/photo.png" alt="Picture of Matheo GARERI" className='w-60 h-60 rounded-lg' />
+                    <img src="/images/photo.png" alt="Picture of Matheo GARERI" className='w-60 h-60 rounded-lg' />
                 </RevealWrapper>
                 <div className='flex flex-col items-start text-center lg:text-left lg:w-1/3 h-full'>
                     <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='bottom' delay={550} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
