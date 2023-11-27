@@ -1,11 +1,12 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { GetTranslate } from "@/app/[locale]/getTranslate";
 import { ArrowDownToLine, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { RevealWrapper } from "next-reveal";
-import Image from "next/image";
 
 export default function HomePage() {
+
     return (
         <>
             <div id="home" className="flex items-center justify-center h-screen relative">
@@ -24,7 +25,17 @@ export default function HomePage() {
                                 <img src="images/france.png" alt="France flag" className="w-5 h-5 ml-2" />
                                 <img src="images/savoie.png" alt="France flag" className="w-5 h-[15px] ml-2 rounded-[3px]" />
                             </p>
-                            <p className="text-left">Welcome to my portfolio! I am <strong>Mathéo GARERI</strong>, computer science student from Savoie in France, specialized in web development. Discover the <a className="font-bold hover:underline" href="#experience">experiences</a> and <a className="font-bold hover:underline" href="#skills">skills</a> I gained during my apprenticeship. Explore my <a className="font-bold hover:underline" href="#projects">projects</a> to discover my creative and technical path in the world of web development.</p>
+                            <p className="text-left">
+                                {GetTranslate('HomePage', 'text-post.text-1')}
+                                <a href="#me" className="font-bold hover:underline">{GetTranslate('HomePage', 'text-post.text-2')}</a>
+                                {GetTranslate('HomePage', 'text-post.text-3')}
+                                <a href="#experience" className="font-bold hover:underline">{GetTranslate('HomePage', 'text-post.text-4')}</a>
+                                {GetTranslate('HomePage', 'text-post.text-5')}
+                                <a href="#skills" className="font-bold hover:underline">{GetTranslate('HomePage', 'text-post.text-6')}</a>
+                                {GetTranslate('HomePage', 'text-post.text-7')}
+                                <a href="#projects" className="font-bold hover:underline">{GetTranslate('HomePage', 'text-post.text-8')}</a>
+                                {GetTranslate('HomePage', 'text-post.text-9')}
+                            </p>
                             <hr className="w-full border-black" />
                             <div className="flex flex-wrap justify-center items-center gap-1 mt-2">
                                 <a target="_blank" className="flex items-center gap-2 font-bold py-1 px-2 rounded-full bg-[#0e76a8] text-sm text-white" href="https://www.linkedin.com/in/mathéo-gareri-b3a081239/"> <Linkedin width={17} height={17} /> LinkedIn</a>
@@ -40,7 +51,7 @@ export default function HomePage() {
                     <Button className="cursor-pointer group flex gap-1.5 px-8 py-4 bg-foreground bg-opacity-80 rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
                         <a href="/images/Matheo_Gareri_CV.pdf" className="flex items-center gap-2" download={true}>
                             <ArrowDownToLine />
-                            Download CV
+                            {GetTranslate('HomePage', 'CV-btn')}
                         </a>
                     </Button>
                 </RevealWrapper>

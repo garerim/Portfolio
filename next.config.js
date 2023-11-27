@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+
+const withNextIntl = require('next-intl/plugin')();
+ 
+module.exports = withNextIntl({
     eslint: {
         ignoreDuringBuilds: true,
     },
-}
-
-module.exports = nextConfig
+    experimental: {
+        serverActions: true
+    }
+});

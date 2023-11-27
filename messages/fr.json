@@ -1,0 +1,85 @@
+{
+    "Menu": {
+        "text-1": "Accueil",
+        "text-2": "Moi",
+        "text-3": "Compétences",
+        "text-4": "Expériences",
+        "text-5": "Projets",
+        "text-6": "Contact"
+    },
+    "HomePage": {
+        "text-post": {
+            "text-1": "Bienvenue dans mon portfolio ! Je suis ",
+            "text-2": "Mathéo GARERI",
+            "text-3": ", étudiant en informatique de Savoie en France, spécialisé dans le développement web. Découvrez les ",
+            "text-4": "expériences",
+            "text-5": " et les ",
+            "text-6": "compétences",
+            "text-7": " que j’ai acquises pendant mon apprentissage. Explorez mes ",
+            "text-8": "projets",
+            "text-9": " pour découvrir mon parcours créatif et technique dans le monde du développement web."
+        },
+        "CV-btn": "Téléchargez mon CV"
+    },
+    "MePage": {
+        "title": "Qui suis-je ?",
+        "me": "Je suis Mathéo GARERI",
+        "description-1": "J’ai ",
+        "description-2": " ans et je suis originaire de Savoie dans les Alpes françaises. Je suis actuellement bachelier en informatique à l’IUT d’Annecy de l’Université Savoie Mont Blanc. Je suis passionné d’informatique, d’histoire, de nature, d’espace, de manga/anime... Au cours de ma carrière et de mes projets personnels, le développement web est devenu ma principale passion et j’ai décidé d’en faire mon métier.",
+        "hobbies": {
+            "title": "Mes Passions",
+            "hobbies-1": {
+                "title": "Informatique",
+                "description": "Depuis que j’ai eu mon propre ordinateur pour mes 15 ans, je suis tombé amoureux de l’informatique comme le codage, les jeux vidéo... C’est pourquoi j’ai choisi d’étudier l’informatique."
+            },
+            "hobbies-2": {
+                "title": "Histoire",
+                "description": "L’histoire me passionne et je regarde des documentaires sur la France, l’Europe et l’histoire militaire."
+            },
+            "hobbies-3": {
+                "title": "Nature",
+                "description": "Originaire de Savoie dans les Alpes françaises, j’ai une passion pour le camping en plein air et la pêche dans les forêts et les lacs de montagne."
+            }
+        }
+    },
+    "SkillsPage": {
+        "title": "Mes Compétences",
+        "subtitle": "Les compétences que j'utilise lors de mes projets",
+        "skills": {
+            "skills-1": {
+                "subtitle": "Mes compétences Front-end"
+            },
+            "skills-2": {
+                "subtitle": "Mes compétences Back-end"
+            },
+            "skills-3": {
+                "title": "Autres",
+                "subtitle": "Mes autres compétences"
+            }
+        }
+    },
+    "ExperiencePage": {
+        "title": "Mes Expériences",
+        "experiences": {
+            "experiences-1": {
+                "title": "Stage Développeur Web FullStack",
+                "date": "avr 2023 - jui 2023",
+                "description": "Lors de mon stage chez POWINOO en tant que Développeur Web FullStack, j'ai aidé à la création de la maquette Figma, j'ai développé le site internet en utilisant React pour le front-end et NodeJS pour le back-end. J'ai aussi intégré Firebase pour gérér l'authentification, enhancing the security and efficiency of the application."
+            }
+        }
+    },
+    "ProjectsPage":{
+        "title": "Mes Projets",
+        "projects": {
+            "projects-1": "Un réseau social pour les développeurs. J’ai utilisé NextJS pour le frontend, Tailwind pour la conception, NextAuth pour l’authentification (Auth avec Github) et Prisma pour la base de données. Les utilisateurs peuvent créer un profil, poster, commenter, aimer, suivre, modifier leur profil, etc.",
+            "projects-2": "Un clone de Twitter. J’ai utilisé React pour le frontend et NodeJS pour le backend. J’ai utilisé MySQL pour la base de données et Docker pour le déploiement. Les utilisateurs peuvent créer un profil, publier, aimer, suivre, modifier leur profil, etc.",
+            "projects-3": "Un clone de Troc, un site commercial. Avec mes 4 collègues, j’ai utilisé VueJS pour le frontend et C# pour le backend (API REST Code First). Les données étaient hébergées sur une base de données PostgreSQL. L’utilisateur peut créer un profil, modifier son profil, explorer des produits, ajouter des produits dans son panier, etc. Nous avons fait ce projet deux fois, la première fois avec PHP Laravel 8 et la deuxième fois avec VueJS et C#."
+        }
+    },
+    "ContactPage": {
+        "name": "Nom",
+        "content": "Contenu",
+        "or": "ou",
+        "send": "Envoyer"
+    }
+}

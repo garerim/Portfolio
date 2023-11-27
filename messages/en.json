@@ -1,0 +1,85 @@
+{
+  "Menu": {
+    "text-1": "Home",
+    "text-2": "Me",
+    "text-3": "Skills",
+    "text-4": "Experiences",
+    "text-5": "Projects",
+    "text-6": "Contact"
+  },
+  "HomePage": {
+    "text-post": {
+      "text-1": "Welcome to my portfolio! I am ",
+      "text-2": "Mathéo GARERI",
+      "text-3": ", computer science student from Savoie in France, specialized in web development. Discover the ",
+      "text-4": "expériences",
+      "text-5": " and ",
+      "text-6": "skills",
+      "text-7": " I gained during my apprenticeship. Explore my ",
+      "text-8": "projects",
+      "text-9": " to discover my creative and technical path in the world of web development"
+    },
+    "CV-btn": "Download CV"
+  },
+  "MePage": {
+    "title": "Who am I ?",
+    "me": "I am Mathéo GARERI",
+    "description-1": "I am ",
+    "description-2": " years old and I am from Savoie in the French Alps. I am currently studying Bachelor in Computer Science at the IUT of Annecy of the University Savoie Mont Blanc. I am passionate about computers, history, nature, space, manga/anime... During my career and my personal projects, web development became my main passion and I decided to make it my job.",
+    "hobbies": {
+      "title": "My Hobbies",
+      "hobbies-1": {
+        "title": "Computer Science",
+        "description": "Since I got my own computer for my 15th birthday, I fell in love with computer science like coding, video games... That is why I chose to study computer science."
+      },
+      "hobbies-2": {
+        "title": "History",
+        "description": "History is something I am passionate about, and I watch documentaries about France, Europe, and the military history."
+      },
+      "hobbies-3": {
+        "title": "Nature",
+        "description": "Being from Savoie in the French Alps, I have a passion for camping outside and fishing in the forests and lakes of mountains."
+      }
+    }
+  },
+  "SkillsPage": {
+    "title": "My Skills",
+    "subtitle": "Skills that I use in my projects",
+    "skills": {
+      "skills-1": {
+        "subtitle": "Front-end skills that I use"
+      },
+      "skills-2": {
+        "subtitle": "Back-end skills that I use"
+      },
+      "skills-3": {
+        "title": "Others",
+        "subtitle": "Others skills that I use"
+      }
+    }
+  },
+  "ExperiencePage": {
+    "title": "My Experiences",
+    "experiences": {
+      "experiences-1": {
+        "title": "FullStack Web Developer Internship",
+        "date": "apr 2023 - jul 2023",
+        "description": "During my internship at POWINOO as a Fullstack Web Developer, I helped design the Figma mockups, created a robust MySQL database, and developed the site using React for the frontend and NodeJS for the backend. I also integrated Firebase to manage authentication, enhancing the security and efficiency of the application."
+      }
+    }
+  },
+  "ProjectsPage": {
+    "title": "My Projects",
+    "projects": {
+      "projects-1": "A social network for developers. I used NextJS for the frontend, Tailwind for the design, NextAuth for authentication (Auth with Github) and Prisma for the database. Users can create a profile, post, comment, like, follow, edit their profile, etc.",
+      "projects-2": "A clone of Twitter. I used React for the frontend and NodeJS for the backend. I used MySQL for the database and Docker for the deployment. Users can create a profile, post, like, follow, edit their profile, etc.",
+      "projects-3": "A clone of Troc, a commercial website. With my 4 co-workers, I used VueJS for the frontend and C# for the backend (API REST Code First). The data was hosted on a PostgreSQL database. The user can create a profile, edit his profile, explore products, add some products in his cart, etc. We made this project twice, the first time with PHP Laravel 8 and the second time with VueJS and C#."
+    }
+  },
+  "ContactPage": {
+    "name": "Name",
+    "content": "Content",
+    "or": "or",
+    "send": "Send"
+  }
+}

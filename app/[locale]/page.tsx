@@ -6,9 +6,8 @@ import ProjectsPage from "@/src/feature/projects/Projects";
 import SkillPage from "@/src/feature/skill/Skill";
 
 
+
 export default function Home() {
-
-
   return (
     <>
       <HomePage />
