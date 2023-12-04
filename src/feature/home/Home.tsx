@@ -5,6 +5,14 @@ import { GetTranslate } from "@/app/[locale]/getTranslate";
 import { ArrowDownToLine, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { RevealWrapper } from "next-reveal";
 
+import {
+    DropdownMenu,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+    DropdownMenuContent
+} from '@/components/ui/dropdown-menu';
+
+
 export default function HomePage() {
 
     return (
@@ -48,12 +56,30 @@ export default function HomePage() {
                 </RevealWrapper>
 
                 <RevealWrapper className='absolute left-1/2 bottom-8 -translate-x-1/2 -translate-y-1/2' rotate={{ x: 0, y: 0, z: 0 }} origin='bottom' delay={600} duration={500} distance='100px' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
-                    <Button className="cursor-pointer group flex gap-1.5 px-8 py-4 bg-foreground bg-opacity-80 rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
-                        <a href="/images/Matheo_Gareri_CV.pdf" className="flex items-center gap-2" download={true}>
-                            <ArrowDownToLine />
-                            {GetTranslate('HomePage', 'CV-btn')}
-                        </a>
-                    </Button>
+                    <DropdownMenu>
+                        <DropdownMenuTrigger asChild>
+                            <Button className="cursor-pointer group flex gap-1.5 px-8 py-4 bg-foreground bg-opacity-80 rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
+                                <ArrowDownToLine />
+                                {GetTranslate('HomePage', 'CV-btn')}
+                            </Button>
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent>
+                            <DropdownMenuItem className="w-full">
+                                <a href="/images/Matheo-GARERI-CV-fr.pdf" className="flex items-center gap-2 w-full relative" download={true}>
+                                    <img src="images/france.png" alt="France flag" className="absolute w-5 h-5 mr-2" />
+                                    <p className="w-fit mx-auto">CV</p>
+                                    <ArrowDownToLine className="w-4 h-4" />
+                                </a>
+                            </DropdownMenuItem>
+                            <DropdownMenuItem className="w-full">
+                                <a href="/images/Matheo-GARERI-CV-en.pdf" className="flex items-center gap-2 w-full relative" download={true}>
+                                    <img src="images/uk.png" alt="United Kingdom flag" className="absolute w-5 h-5 mr-2" />
+                                    <p className="w-fit mx-auto">CV</p>
+                                    <ArrowDownToLine className="w-4 h-4" />
+                                </a>
+                            </DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
                 </RevealWrapper>
 
             </div>
