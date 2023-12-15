@@ -77,6 +77,30 @@ export default function ProjectsPage() {
           "svg": "postgresql"
         }
       ]
+    },
+    {
+      "name": "Pulse Chat",
+      "description": GetTranslate("ProjectsPage", 'projects.projects-4'),
+      "image": "pulsechat",
+      "url": "https://pulsechat-poll.vercel.app/home",
+      "techs": [
+        {
+          "name": "NextJS",
+          "svg": "nextjs"
+        },
+        {
+          "name": "Prisma",
+          "svg": "prisma"
+        },
+        {
+          "name": "TypeScript",
+          "svg": "typescript"
+        },
+        {
+          "name": "TailwindCSS",
+          "svg": "tailwind"
+        }
+      ]
     }
   ]
 

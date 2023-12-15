@@ -73,7 +73,8 @@
     "projects": {
       "projects-1": "A social network for developers. I used NextJS for the frontend, Tailwind for the design, NextAuth for authentication (Auth with Github) and Prisma for the database. Users can create a profile, post, comment, like, follow, edit their profile, etc.",
       "projects-2": "A clone of Twitter. I used React for the frontend and NodeJS for the backend. I used MySQL for the database and Docker for the deployment. Users can create a profile, post, like, follow, edit their profile, etc.",
-      "projects-3": "A clone of Troc, a commercial website. With my 4 co-workers, I used VueJS for the frontend and C# for the backend (API REST Code First). The data was hosted on a PostgreSQL database. The user can create a profile, edit his profile, explore products, add some products in his cart, etc. We made this project twice, the first time with PHP Laravel 8 and the second time with VueJS and C#."
+      "projects-3": "A clone of Troc, a commercial website. With my 4 co-workers, I used VueJS for the frontend and C# for the backend (API REST Code First). The data was hosted on a PostgreSQL database. The user can create a profile, edit his profile, explore products, add some products in his cart, etc. We made this project twice, the first time with PHP Laravel 8 and the second time with VueJS and C#.",
+      "projects-4": "PulseChat is an application allowing its users to create, share and vote polls. The site was coded with NextJS and the database with Prisma. The site design was done through TailwindCSS and the ShadcnUI library. This application is hosted on Vercel. The connection is to a PostgreSQL database that is located on NEON.tech."
     }
   },
   "ContactPage": {
