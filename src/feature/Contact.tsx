@@ -27,7 +27,7 @@ export default function ContactPage() {
         }, (error) => {
           console.log(error.text);
         });
-    }
+      }
   };
 
   return (

@@ -65,6 +65,11 @@
         "title": "FullStack Web Developer Internship",
         "date": "apr 2023 - jul 2023",
         "description": "During my internship at POWINOO as a Fullstack Web Developer, I helped design the Figma mockups, created a robust MySQL database, and developed the site using React for the frontend and NodeJS for the backend. I also integrated Firebase to manage authentication, enhancing the security and efficiency of the application."
+      },
+      "experiences-2": {
+          "title": "Web Developer Internship",
+          "date": "feb 2024 - may 2024",
+          "description": "I did an internship at PERFACTIVE as a Web Developer, I helped improve the website using PHP Laravel 8. I also integrated Google APIs such as My Business and Matrix while guaranteeing a quality code."
       }
     }
   },
