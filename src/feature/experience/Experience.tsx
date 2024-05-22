@@ -56,6 +56,10 @@ export default function ExperiencePage() {
           svg: "git",
           name: "Git"
         },
+        {
+          svg: "openai",
+          name: "OpenAI"
+        },
       ]
     }
   ]
