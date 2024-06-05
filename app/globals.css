@@ -45,7 +45,8 @@
     --background-opac: hsl(214.7, 42.2%, 8.8%, 60%);
     --foreground: 205 100% 88%;
 
-    --bg-img: url('/images/background-dark.jpg');
+    /* --bg-img: url('/images/background-dark.jpg'); */
+    --bg-img: url('/images/dark-background.png');
  
     --card: 212 69% 16%;
     --card-foreground: 0 0% 98%;
