@@ -38,6 +38,7 @@ export default function ExperiencePage() {
     },
     {
       job: GetTranslate('ExperiencePage', 'experiences.experiences-2.title'),
+      summary: true,
       image: "perfactive",
       company: "PERFACTIVE",
       link: "https://perfactive.fr",
