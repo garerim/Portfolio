@@ -58,7 +58,7 @@ export default function ContactPage() {
           <RevealList interval={60} delay={200} reset={false} className='flex flex-wrap gap-2 items-center justify-center h-auto'>
             <a target="_blank" href="https://www.linkedin.com/in/mathéo-gareri-b3a081239/" className="flex items-center gap-2 font-bold bg-[#0e76a8] py-1.5 px-3 rounded-full text-white"><Linkedin /> LinkdeIn</a>
             <a target="_blank" href="https://github.com/garerim" className="flex items-center gap-2 font-bold bg-black py-1 px-2 rounded-full text-white"><Github /> GitHub</a>
-            <a target="_blank" href="mailto:matheo.gareri@etu.univ-smb.fr" className="flex items-center gap-2 font-bold bg-blue-400 py-1 px-2 rounded-full text-white"><Mail /> Mail</a>
+            <a target="_blank" href="mailto:matheo.gareri73@gmail.com" className="flex items-center gap-2 font-bold bg-blue-400 py-1 px-2 rounded-full text-white"><Mail /> Mail</a>
             <a target="_blank" href="tel:+33669336354" className="flex items-center gap-2 font-bold bg-[#41ab35] py-1 px-2 rounded-full text-white"><Phone /> +33 6 69 33 63 54</a>
           </RevealList>
         </div>

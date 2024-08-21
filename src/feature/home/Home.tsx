@@ -53,7 +53,7 @@ export default function HomePage() {
                             <div className="flex flex-wrap justify-center items-center gap-1 mt-2">
                                 <a target="_blank" className="flex items-center gap-2 font-bold py-1 px-2 rounded-full bg-[#0e76a8] text-sm text-white" href="https://www.linkedin.com/in/mathéo-gareri-b3a081239/"> <Linkedin width={17} height={17} /> LinkedIn</a>
                                 <a target="_blank" className="flex items-center gap-2 font-bold py-1 px-2 rounded-full bg-[#000] text-sm text-white" href="https://github.com/garerim"> <Github width={17} height={17} /> Github</a>
-                                <a target="_blank" className="flex items-center gap-2 font-bold py-1 px-2 rounded-full bg-blue-400 text-sm text-white" href="mailto:matheo.gareri@etu.univ-smb.fr"> <Mail width={17} height={17} /> Mail</a>
+                                <a target="_blank" className="flex items-center gap-2 font-bold py-1 px-2 rounded-full bg-blue-400 text-sm text-white" href="mailto:matheo.gareri73@gmail.com"> <Mail width={17} height={17} /> Mail</a>
                                 <a target="_blank" className="flex items-center gap-2 font-bold py-1 px-2 rounded-full bg-[#41ab35] text-sm text-white" href="tel:+33669336354"> <Phone width={17} height={17} /> +33 6 69 33 63 54</a>
                             </div>
                         </div>
