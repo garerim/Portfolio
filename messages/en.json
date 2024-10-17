@@ -70,7 +70,12 @@
           "title": "Web Developer Internship",
           "date": "feb 2024 - may 2024",
           "description": "I did an internship at PERFACTIVE as a Web Developer, I helped improve the website using PHP Laravel 8. I also integrated Google APIs such as My Business, Matrix and OpenAI while guaranteeing a quality code."
-      }
+      },
+      "experiences-3": {
+                "title": "Apprenticeship Web Developer",
+                "date": "sept 2024 - today",
+                "description": "I am currently doing an apprenticeship at Dymension as a Web Developer. I have worked with Angular and NestJS. I have also handled Docker for managing development and continuous integration environments, and used GitLab for code versioning, CI/CD pipelines, and effective team collaboration."
+            }
     }
   },
   "ProjectsPage": {

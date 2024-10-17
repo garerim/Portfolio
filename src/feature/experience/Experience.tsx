@@ -38,7 +38,6 @@ export default function ExperiencePage() {
     },
     {
       job: GetTranslate('ExperiencePage', 'experiences.experiences-2.title'),
-      summary: true,
       image: "perfactive",
       company: "PERFACTIVE",
       link: "https://perfactive.fr",
@@ -60,6 +59,32 @@ export default function ExperiencePage() {
         {
           svg: "openai",
           name: "OpenAI"
+        },
+      ]
+    },
+    {
+      job: GetTranslate('ExperiencePage', 'experiences.experiences-3.title'),
+      image: "dymension",
+      company: "DYMENSION",
+      link: "https://www.dymension.fr",
+      description: GetTranslate('ExperiencePage', 'experiences.experiences-3.description'),
+      date: GetTranslate('ExperiencePage', 'experiences.experiences-3.date'),
+      techs: [
+        {
+          svg: "angular",
+          name: "Angular"
+        },
+        {
+          svg: "nestjs",
+          name: "Nest JS"
+        },
+        {
+          svg: "gitlab",
+          name: "GitLab"
+        },
+        {
+          svg: "docker",
+          name: "Docker"
         },
       ]
     }

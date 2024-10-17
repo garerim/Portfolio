@@ -13,6 +13,10 @@ export const data = {
             "svg": "vue"
         },
         {
+            "name": "Angular",
+            "svg": "angular"
+        },
+        {
             "name": "Typescript",
             "svg": "typescript"
         },
@@ -20,10 +24,6 @@ export const data = {
             "name": "TailwindCSS",
             "svg": "tailwind"
         },
-        {
-            "name": "Scss",
-            "svg": "scss"
-        }
     ] ,
     "backend": [
         {
@@ -31,12 +31,12 @@ export const data = {
             "svg": "nodejs"
         },
         {
-            "name": "PostgreSQL",
-            "svg": "postgresql"
+            "name": "SQL",
+            "svg": "sql"
         },
         {
-            "name": "MySQL",
-            "svg": "mysql"
+            "name": "NestJS",
+            "svg": "nestjs"
         },
         {
             "name": "Prisma",

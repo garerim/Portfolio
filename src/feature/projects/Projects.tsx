@@ -9,6 +9,34 @@ export default function ProjectsPage() {
 
   const data = [
     {
+      "name": "Miro Clone",
+      "description": GetTranslate("ProjectsPage", 'projects.projects-5'),
+      "image": ["miro-1", "miro-2"],
+      "url": "https://miro-clone-sand.vercel.app",
+      "techs": [
+        {
+          "name": "NextJS",
+          "svg": "nextjs"
+        },
+        {
+          "name": "TypeScript",
+          "svg": "typescript"
+        },
+        {
+          "name": "TailwindCSS",
+          "svg": "tailwind"
+        },
+        {
+          "name": "Convex",
+          "svg": "convex"
+        },
+        {
+          "name": "Liveblocks",
+          "svg": "liveblocks"
+        },
+      ]
+    },
+    {
       "name": "Githread",
       "description": GetTranslate("ProjectsPage", 'projects.projects-1'),
       "image": ["githread-1"],
@@ -102,34 +130,6 @@ export default function ProjectsPage() {
           "name": "TailwindCSS",
           "svg": "tailwind"
         }
-      ]
-    },
-    {
-      "name": "Miro Clone",
-      "description": GetTranslate("ProjectsPage", 'projects.projects-5'),
-      "image": ["miro-1", "miro-2"],
-      "url": "https://miro-clone-sand.vercel.app",
-      "techs": [
-        {
-          "name": "NextJS",
-          "svg": "nextjs"
-        },
-        {
-          "name": "TypeScript",
-          "svg": "typescript"
-        },
-        {
-          "name": "TailwindCSS",
-          "svg": "tailwind"
-        },
-        {
-          "name": "Convex",
-          "svg": "convex"
-        },
-        {
-          "name": "Liveblocks",
-          "svg": "liveblocks"
-        },
       ]
     },
   ]

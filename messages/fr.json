@@ -70,6 +70,11 @@
                 "title": "Stage Développeur Web",
                 "date": "fev 2024 - mai 2024",
                 "description": "J'ai pu faire un stage chez PERFACTIVE en tant que Développeur Web, j'ai aidé à l'amélioration du site internet en utilisant PHP Laravel 8. J'ai aussi intégré des APIs Google tel que My Business, Matrix et OpenAI tout en garantissant un code de qualité."
+            },
+            "experiences-3": {
+                "title": "Alternance Développeur Web",
+                "date": "sept 2024 - aujourd'hui",
+                "description": "Je suis actuellement en alternance chez Dymension en tant que Développeur Web. J'ai pu travailler Angular et NestJS. J'ai également manipulé Docker pour la gestion des environnements de développement et d'intégration continue, et utilisé GitLab pour le versioning du code, les pipelines CI/CD et collaborer efficacement en équipe."
             }
         }
     },
