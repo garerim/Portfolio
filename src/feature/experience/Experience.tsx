@@ -95,7 +95,7 @@ export default function ExperiencePage() {
     <div id='experience' className='min-h-screen h-fit relative pt-20 pb-10 px-2 overflow-x-hidden overflow-y-clip'>
       <h2 className='text-center text-4xl font-bold mb-16'>{GetTranslate('ExperiencePage', 'title')}</h2>
       <div className='w-px bg-blue-600 h-[100%] absolute left-1/2 top-[70%] -translate-x-1/2 -translate-y-1/2 -z-10'></div>
-      <div className='flex items-center flex-col gap-4'>
+      <div className='flex items-center flex-col-reverse gap-4'>
         {experience.map((experience, index) => (
           <ExperienceItem key={index} experience={experience} />
         ))}
